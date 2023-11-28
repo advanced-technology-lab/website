@@ -10,7 +10,7 @@ theme:
   name: material
   language: de
   icon:
-    logo: mdi:circle
+    logo: 'fontawesome/solid/circle'
     edit: material/pencil 
   palette:
     primary: 'black'
