@@ -1,0 +1,62 @@
+site_name: 'ATL'
+
+site_description: 'die digitalen Ressourcen des Advanced Technology Lab.'
+
+repo_url: https://github.com/advanced-technology-lab/website
+repo_name: Quellcode auf GitHub
+edit_uri: https://github.com/advanced-technology-lab/website/edit/main/docs/
+
+theme: 
+  name: material
+  language: de
+  icon:
+    logo: '&#9679;'
+    edit: material/pencil 
+  palette:
+    primary: 'black'
+    accent: 'blue'
+  font:
+    text: 'Rubik'    
+  features:
+    - toc.follow
+    - navigation.top
+    - navigation.instant    
+    - search.suggest 
+    - search.highlight
+    - navigation.tracking      
+    - announce.dismiss
+    - content.action.edit
+
+nav:
+    - ATL: 'index.md'
+
+markdown_extensions:
+  - meta
+  - toc:
+  #    permalink: true
+      toc_depth: 3
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg  
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences   
+  - pymdownx.critic    
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde  
+  - footnotes
+  - attr_list
+
+plugins:
+  - search
+  - glightbox
+
+extra_css:
+  - 'stylesheets/extra.css'
