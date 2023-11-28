@@ -10,7 +10,7 @@ theme:
   name: material
   language: de
   icon:
-    logo: '&#9679;'
+    logo: mdi:circle
     edit: material/pencil 
   palette:
     primary: 'black'
