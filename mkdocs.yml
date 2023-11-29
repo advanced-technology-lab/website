@@ -6,24 +6,24 @@ repo_url: https://github.com/advanced-technology-lab/website
 repo_name: Quellcode auf GitHub
 edit_uri: https://github.com/advanced-technology-lab/website/edit/main/docs/
 
-theme: 
+theme:
   name: material
   language: de
   icon:
     logo: 'fontawesome/solid/circle'
-    edit: material/pencil 
+    edit: material/pencil
   palette:
-    primary: 'black'
-    accent: 'blue'
+    primary: white
+    accent: indigo
   font:
-    text: 'Rubik'    
+    text: 'Rubik'
   features:
     - toc.follow
     - navigation.top
-    - navigation.instant    
-    - search.suggest 
+    - navigation.instant
+    - search.suggest
     - search.highlight
-    - navigation.tracking      
+    - navigation.tracking
     - announce.dismiss
     - content.action.edit
 
@@ -37,20 +37,20 @@ markdown_extensions:
       toc_depth: 3
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg  
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
   - admonition
   - pymdownx.details
-  - pymdownx.superfences   
-  - pymdownx.critic    
+  - pymdownx.superfences
+  - pymdownx.critic
   - pymdownx.caret
   - pymdownx.mark
-  - pymdownx.tilde  
+  - pymdownx.tilde
   - footnotes
   - attr_list
 
